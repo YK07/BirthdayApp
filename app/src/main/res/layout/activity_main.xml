@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.yk.birthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/android"
+        android:scaleType="centerCrop"
+        android:id="@+id/imageView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday !!!"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorAccent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From YK :)"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:paddingBottom="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+
+
+</RelativeLayout>
